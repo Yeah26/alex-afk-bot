@@ -143,4 +143,3 @@ try:
 except Exception as e:
     with open("error_log.txt", "a") as f:
         f.write(traceback.format_exc() + "\n")
-commit: main.py hozzáadva
